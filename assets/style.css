@@ -44,7 +44,14 @@ nav ul li a{
     flex-wrap: wrap;
 }
 .about-col-1{
-    
+    flex-basis: 80%;
+}
+.about-col-1 img{
+width: 100%;
+border-radius: 15px
+}
+.about-col-2{
+flex-basis: 20%;
 }
 /* <!--class for head top and nav-links--> */
 /* header {
