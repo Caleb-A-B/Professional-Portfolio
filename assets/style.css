@@ -15,6 +15,7 @@ body{
 .container{
     padding: 10px 10%;
 }
+/*navigation links at top*/
 nav{
     display: flex;
     align-items: center;
@@ -33,6 +34,7 @@ nav ul li a{
     font-size: 18px;
     position: relative;
 }
+/*image and about me*/
 #about{
     padding: 80px 0;
     color: #ababab;
@@ -61,12 +63,13 @@ flex-basis: 30%;
     font-weight: 600;
     color: #fff;
 }
+/*work section*/
 .work{
     border: 1px solid #fff;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
+    width: 20%;
     justify-content: space-between;
 
 }
@@ -76,137 +79,16 @@ flex-basis: 30%;
   grid-gap: 40px; 
   margin-top: 50px; 
 }
-
-
-
-
-/* <!--class for head top and nav-links--> */
-/* header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; padding: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:xx-large;
-    background-color: black;
-    color: whitesmoke;
-}
-header div{
-    padding-top: 5px;
-    margin: auto;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px; */
-
-/* <!--control for nav-links> */
-/* .nav-links {
-    padding: 28px 0;
-}
-
-.nav-links li {
-    display: inline-block;
-    margin: left;
-    padding: 40px;
-} */
-/* #topnav {
-  display: flex;
-  margin: 5px;
-  text-align: center;
-  justify-content: space-between;
-}
-#topnav a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-    position: relative; 
-}
-#topnav a ::after{
-    content: '';
-    width: 100%;
-    height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -6px; */
-
-/* } */
-/* .nav-link{
-    text-align:center;
-    color:whitesmoke
-}
-.nav-link:hover{
-    background-color:darkblue
-} */
-
-/* a {
-  padding-left: 70px;
-  display:inline-block;
-  margin: left;
-  color: black;
-} */
-  /* add spacing between items */
-/* ul {
-    list-style: none;
-  }
-  
-  li {
-    display: inline-block;
-    margin-right: 10px;
-   padding:50px
-  } */
-
-/*images*/
-/* #hero {
-    height: 50%;
-    width: 50%;
-    margin-bottom: 25px;
-    background-position: center;
-    background-size: cover;
-    background-color: black;
-}
-
-#introduction{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
-    border: 3px solid black;
-}
-
-article h1, section h1{
-    border: 3px solid black;
-    margin-bottom: 5px;
-    float: left;
-    height: 100px;
-}
-article p{
-    border: 3px solid black;
-}
-span{
-    flex-wrap: wrap;
-    margin-right: 90%;
-}
-.products {
-    display: flex;
-    flex-direction: row;
-   max-width: min-content;
-
-}
-.column {
-    float: left;
-    width: 50%
-}
-
-/*clear floats after the columns!!*/
-/* .row:after {
-    content: "";
-    display: table;
-    clear: both;
-    color: whitesmoke;
-    background-color: black;
-}
+/*contact section*/
 .contact{
     display: inline;
     margin: center;
-    padding: 40px;
-} */ 
+    padding:40px;
+}
+.work-item{
+    border: 5px solid white;
+    display: flex;
+    margin-left: 10%;
+}
+
+
