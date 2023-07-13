@@ -61,6 +61,14 @@ flex-basis: 30%;
     font-weight: 600;
     color: #fff;
 }
+.card{
+    height:50%;
+    width:50%;
+}
+
+
+
+
 /* <!--class for head top and nav-links--> */
 /* header {
     display: flex;
