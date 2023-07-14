@@ -89,23 +89,30 @@ flex-basis: 30%;
   flex:1;
 }
 /*contact section*/
+
 .contact{
+    padding: 30px;
+    clear:both;
+    text-align: center;
+
+}
+#contact-container{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding:10px;
 }
-.contact li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
-}
+
 .work-item{
     border: 5px solid white;
     display: flex;
     margin-left: 10%;
     background-image:url(/assets/images/Horiseon\ image\ 1......png);
 }
-
+.work-item-1{
+display: flex;
+float: right;
+}
 
 
