@@ -41,6 +41,8 @@ nav li a{
 }
 img {
     float: right;
+    max-width: 480px;
+    max-height: 480px;
 }
 
 .row{
